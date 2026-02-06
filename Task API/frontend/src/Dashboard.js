@@ -4,10 +4,8 @@ function Dashboard() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ padding: "40px" }}>
+    <div>
       <h2>Dashboard</h2>
-      <p>Welcome 🎉</p>
-
       <button onClick={() => navigate("/")}>
         Logout
       </button>

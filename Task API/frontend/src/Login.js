@@ -4,12 +4,8 @@ function Login() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ padding: "40px" }}>
-      <h2>Login Page</h2>
-
-      <input type="text" placeholder="Username" /><br /><br />
-      <input type="password" placeholder="Password" /><br /><br />
-
+    <div>
+      <h2>Login</h2>
       <button onClick={() => navigate("/dashboard")}>
         Login
       </button>
